@@ -1,6 +1,13 @@
-$body-color: slateblue;
+@import "tailwind";
+@import "variables";
+@import "layout";
 
-body {
-  color: $body-color;
-  font-family: sans-serif;
+html, body {
+  color: $text-primary-color;
+  background-color: $bg-primary;
+  font: {
+    family: $font-family;
+    size: $font-size-mobile;
+  }
+  min-height: 100vh;
 }

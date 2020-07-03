@@ -1,0 +1,13 @@
+.ts-container{
+    padding: 0 1rem;
+}
+.absolute{
+    &-in-center{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+img {
+    width: 100%;
+}
